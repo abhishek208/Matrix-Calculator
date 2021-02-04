@@ -1,0 +1,618 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Abel', sans-serif;
+}
+
+.container{
+   
+display: flex;
+min-height: 110vh;
+position: relative;
+align-items: center;
+background-image: url(./undraw_education_f8ru.svg);
+    background-color:rgba(230, 128, 208, 0.096) ;
+    background-repeat: no-repeat;
+   background-position: right;
+  
+   
+   background-size: 40rem;
+   overflow: hidden;
+   
+}
+.container::before{
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 1500px;
+    
+    transform: rotate(45deg);
+    background: linear-gradient(50deg , #49afe2a2, #00FF6C);
+    z-index: -1;
+    
+    
+    }
+
+input{
+
+    width: 2.2rem;
+height: 2.2rem;
+margin:0.2rem ;
+margin-right: 1rem;
+border-radius: 0.2rem;
+outline:none ;
+border: 3px solid rgba(99, 77, 151, 0.493);
+font-size: 1rem;
+color: rgba(128, 128, 128, 0.877);
+text-align: center;
+
+
+    
+    }
+    .input{
+
+        display: grid;
+        grid-template-columns: repeat(4, 50px);
+        width: 12.4rem;
+        padding: 0%;
+        margin: 0.5rem 0.5rem;
+        background-color: rgba(162, 106, 202, 0.219);
+       padding: 1rem;
+        
+        }
+        
+.box{
+    display: flex ;
+    flex-direction: column;
+  align-items: center;
+  margin-left: 10rem;
+  background-color: rgba(255, 255, 255, 0.808);
+height: 24rem;
+width: 24rem;
+  
+   
+}
+#btn1{
+    
+    position: absolute;
+    left: 21rem;
+    margin-top: 1rem;
+    
+  
+}
+.cal{
+
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    background-color: #6930c3;
+    color: white;
+    cursor: pointer;
+    
+
+}
+.cal:hover{
+    background-color: white;
+    color:  #6930c3;
+    border: 2px solid #6930c3;
+    
+}
+#btn2{
+   
+    visibility: hidden;
+    position: absolute;    left: 21rem;
+    margin-top: 1rem;
+}
+#btn3{
+   
+    position: absolute;
+    visibility: hidden;    left: 21rem;
+    margin-top: 1rem;
+
+}
+.btnt{
+    
+  
+    margin-left: -7rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 0.39rem 1.6rem ;
+    border-radius: 0.3rem;
+    background-color: rgba(241, 228, 228, 0.432);
+    color: #06d69ee1;
+    border: 2px solid #06d69ee1;
+  cursor: pointer;
+  outline: none;
+}
+.btnt:hover{
+
+    outline: none;
+  
+    border: none;
+  
+   
+   background-color: #06d69ee1;
+   color: white;  
+}
+.btn{
+    margin: 1rem 0.7rem;
+    padding: 0.4rem 1.6rem ;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+   background-color: #06d69ee1;
+   color: white;
+  cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: #06d69ee1;
+    border: 2px solid #06d69ee1;
+}
+.output{
+    
+    height: 5rem;
+    width: 20rem;
+    padding-top: 2rem;
+    padding-left:2rem;
+   
+}
+p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 0.719);
+}
+h1{
+    position: absolute;
+    top: 2.4rem;
+    left: 10rem;
+    font-size: 4rem;
+    color: rgb(12, 4, 22);
+    font-weight: 400;
+}
+.op{
+
+    background-color: white;
+    border: 2px solid #885bd17e;
+    text-align: center;
+
+}
+span{
+   font-size: 1.5rem ;
+   font-weight: 700;
+   color: rgba(97, 95, 95, 0.712);
+   font-family: 'Big Shoulders Inline Text', cursive;
+}
+footer.footer{
+    
+   margin-top: 20rem;
+    height:70%;
+    background-color: rgb(2, 2, 28);
+    position: relative;
+    }
+    footer.footer .container4{
+    display:grid;
+    grid-template-columns: 35% 35% 30% ;
+    
+    
+    }
+    
+    footer.footer .container4 >div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem ;
+    }
+    footer.footer .newsletter  {
+    
+        background-color: solid black;
+        display: inline-block;
+    }
+    .asd{
+        padding: .2rem ;
+        border: none;
+        border-radius: 0rem;
+        width: 70%;
+        margin: 0%;
+       
+    }
+    span .dfg{
+        margin-top: .5rem;
+
+    }
+    .dfg{
+    
+        background-color: #a0c4ff;
+        padding: .4rem .3rem;
+        color: blue;
+        cursor: pointer;
+       
+    }
+    
+    footer.footer .follow div i{
+    
+    padding: 0.5rem;
+    
+    color:rgba(255, 255, 255, 0.432) ;
+    font-size: 1.7rem;
+    cursor: pointer;
+    }
+    footer.footer .follow div i:hover{
+    
+    color: white;
+    
+    }
+    .follow h2{
+        padding-left: 2.4rem;
+        
+    }
+    footer.footer .rights{
+        justify-content: center;
+    }
+    footer.footer .move-up{
+        position: absolute;
+        right: 6%;
+        top: 50%;
+        color: rgba(255, 255, 255, 0.432);
+        cursor: pointer;
+    }
+    footer.footer .move-up:hover{
+        color: white;
+    }
+    .container4 h2{
+       color: white;
+        font-family: 'Abel', sans-serif;
+    }
+    .about-us p{color: rgba(255, 255, 255, 0.432);
+        font-family: 'Abel', sans-serif;
+    
+    }
+    .newsteller p{color: rgba(255, 255, 255, 0.432);
+    
+        font-family: 'Abel', sans-serif;
+    
+    }
+    .follow p{
+        color: rgba(255, 255, 255, 0.432);
+        padding-left: 2.6rem;
+        
+        font-family: 'Abel', sans-serif;
+    }
+    .rights p{
+    
+      color: white; 
+      font-family: 'Abel', sans-serif; 
+      font-size: 1rem;
+      margin-bottom: 0%;
+      text-align: center;
+     
+    }
+  
+  
+  
+  /*foooterrr--------------------*/
+  @media only screen and (max-width:1144px){
+      .container{
+          background-image: none;
+      }
+
+
+
+
+
+  } @media only screen and (max-width:668px){
+    .box{
+        margin-left: 8rem;
+    }
+
+
+  }
+  
+
+
+  
+   @media only screen and (max-width:560px){
+    .box{
+        margin-left: 6rem;
+    }
+
+
+  }
+   @media only screen and (max-width:518px){
+    .box{
+        margin-left: 4rem;
+       
+    }
+    #btn1{
+    
+        
+        left: 16rem;
+       
+        
+      
+    }
+    #btn2{
+    
+        
+        left: 16rem;
+       
+        
+      
+    }
+    #btn3{
+    
+        
+        left: 16rem;
+       
+        
+      
+    }
+
+  }
+   @media only screen and (max-width:472px){
+    .box{
+        margin-left: 2rem;
+       
+    }
+    #btn1{
+    
+        
+        left: 14rem;
+       
+        
+      
+    }
+    #btn2{
+    
+        
+        left: 14rem;
+       
+        
+      
+    }
+    #btn3{
+    
+        
+        left: 14rem;
+       
+        
+      
+    }}
+   @media only screen and (max-width:432px){
+    .box{
+        margin-left: 2.5rem;
+        width: 22rem;
+       
+    }
+    #btn1{
+    
+        
+        left: 13rem;
+       
+        
+      
+    }
+    #btn2{
+    
+        
+        left: 13rem;
+       
+        
+      
+    }
+    #btn3{
+    
+        
+        left: 13rem;
+       
+        
+      
+    } h1{font-size: 3.5rem;
+        left: 1rem;
+           top:4rem;
+    }}
+    
+   @media only screen and (max-width:404px){
+    .box{
+        margin-left: 2rem;
+        width: 21rem;
+       
+    }
+    #btn1{
+    
+        
+        left: 12rem;
+       
+        
+      
+    }
+    #btn2{
+    
+        
+        left: 12rem;
+       
+        
+      
+    }
+    #btn3{
+    
+        
+        left: 12rem;
+       
+        
+      
+    } h1{font-size: 3.5rem;
+        left: 1rem;
+           top:4rem;
+    }
+
+  }
+   @media only screen and (max-width:385px){
+    .box{
+        margin-left: 1.5rem;
+        width: 20.5rem;
+       
+    }
+    #btn1{
+    
+        
+        left: 12rem;
+       
+        
+      
+    }
+    #btn2{
+    
+        
+        left: 12rem;
+       
+        
+      
+    }
+    #btn3{
+    
+        
+        left: 12rem;
+       
+        
+      
+    }
+    .output{
+        width: 18rem;
+        padding-left: 1rem;
+    } h1{font-size: 3.5rem;
+        left: 1rem;
+           top:4rem;
+    }
+  }
+   @media only screen and (max-width:360px){
+    .box{
+        margin-left: 1rem;
+        width: 20.5rem;
+       
+    }
+    #btn1{
+    
+        
+        left: 12rem;
+       
+        
+      
+    }
+    #btn2{
+    
+        
+        left: 12rem;
+       
+        
+      
+    }
+    #btn3{
+    
+        
+        left: 12rem;
+       
+        
+      
+    }
+    .output{
+        width: 18rem;
+        padding-left: 1rem;
+    }
+    h1{font-size: 3.5rem;
+    left: 1rem;
+       top:4rem;
+}
+  }
+   @media only screen and (max-width:345px){
+    .box{
+        margin-left: .5rem;
+        width: 20rem;
+       
+    }
+    #btn1{
+    
+        
+        left: 11rem;
+       
+        
+      
+    }
+    #btn2{
+    
+        
+        left: 11rem;
+       
+        
+      
+    }
+    #btn3{
+    
+        
+        left: 11rem;
+       
+        
+      
+    }
+    .output{
+        width: 18rem;
+        padding-left: 1rem;
+    }
+    h1{font-size: 3.5rem;
+    left: 1rem;
+       top:4rem;
+}
+  }
+  @media only screen and (max-width:500px){
+    footer.footer .container4{
+      grid-template-columns: none;
+      
+      }
+      footer.footer{
+      height: 100%;
+      
+      }
+      
+      
+      footer.footer .container4 >div{
+      
+      padding: 1rem .9rem;
+      
+      }
+      .follow h2{
+      
+          padding-left: 6rem;
+      }
+      .follow p{
+      
+          padding-left: 6.4rem;
+      }
+      .qwe{
+          padding-left: 3.4rem;
+      }
+      .rights p{
+          font-size: 1rem;
+          margin: 1rem;
+      }
+    }
+    @media only screen and (max-height:700px){
+        h1{font-size: 3rem;
+            left: 1.5rem;
+               top:3rem;
+               margin: 0%;
+        }
+
+
+    }
+    @media only screen and (max-height:700px){
+        h1{font-size: 3rem;
+            left: 1.5rem;
+               top:3rem;
+               margin: 0%;
+        }
+
+
+    }
+
+
