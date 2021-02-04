@@ -605,6 +605,7 @@ footer.footer{
 
 
     }
+
     @media only screen and (max-height:700px){
         h1{font-size: 3rem;
             left: 1.5rem;
@@ -613,6 +614,12 @@ footer.footer{
         }
 
 
+    }@media only screen and (max-height:500px){
+        h1{display: none;
+
+
     }
+   
+}
 
 
